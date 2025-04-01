@@ -45,11 +45,11 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <IntDir>$(SolutionDir)Build\Int\$(ProjectName)\$(Platform)\$(Configuration)\</IntDir>
-    <OutDir>$(SolutionDir)Build\Bin\$(Platform)\$(Configuration)\</OutDir>
+    <OutDir>$(SolutionDir)Build\Bin\ConsoleTemplate01\$(Platform)\$(Configuration)\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <IntDir>$(SolutionDir)Build\Int\$(ProjectName)\$(Platform)\$(Configuration)\</IntDir>
-    <OutDir>$(SolutionDir)Build\Bin\$(Platform)\$(Configuration)\</OutDir>
+    <OutDir>$(SolutionDir)Build\Bin\ConsoleTemplate01\$(Platform)\$(Configuration)\</OutDir>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
@@ -87,9 +87,6 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\ConsoleTemplate01Dll\TemplateBase.h" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ConsoleTemplate01Dll\ConsoleTemplate01Dll.vcxproj">

@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ConsoleTemplate02Dll", "Con
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ConsoleTemplate02App", "ConsoleTemplate02App\ConsoleTemplate02App.vcxproj", "{4237B1B6-5CC5-4857-8DB1-2160D0911D76}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ConsoleTemplate03App", "ConsoleTemplate03App\ConsoleTemplate03App.vcxproj", "{F1ADAC5E-A7C4-46B5-8955-BA3D70EAFFE6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -33,6 +35,10 @@ Global
 		{4237B1B6-5CC5-4857-8DB1-2160D0911D76}.Debug|x64.Build.0 = Debug|x64
 		{4237B1B6-5CC5-4857-8DB1-2160D0911D76}.Release|x64.ActiveCfg = Release|x64
 		{4237B1B6-5CC5-4857-8DB1-2160D0911D76}.Release|x64.Build.0 = Release|x64
+		{F1ADAC5E-A7C4-46B5-8955-BA3D70EAFFE6}.Debug|x64.ActiveCfg = Debug|x64
+		{F1ADAC5E-A7C4-46B5-8955-BA3D70EAFFE6}.Debug|x64.Build.0 = Debug|x64
+		{F1ADAC5E-A7C4-46B5-8955-BA3D70EAFFE6}.Release|x64.ActiveCfg = Release|x64
+		{F1ADAC5E-A7C4-46B5-8955-BA3D70EAFFE6}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
